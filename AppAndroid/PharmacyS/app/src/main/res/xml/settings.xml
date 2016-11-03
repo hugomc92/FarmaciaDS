@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/settingsTittle"
+        android:key="pref_key_storage_settings">
+        <EditTextPreference android:title="Change Password"
+            android:summary="Please provide your new password"
+            android:password="true"
+            android:key="password">
+        </EditTextPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/app_name"
+        android:key="pref_key_storage_settings">
+        <CheckBoxPreference android:title="Application Updates"
+            android:defaultValue="false"
+            android:summary="This option if selected will allow the application to check for latest versions."
+            android:key="applicationUpdates" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

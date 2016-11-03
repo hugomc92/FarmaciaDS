@@ -1,0 +1,36 @@
+RELEASE NOTES
+
+28/05/2016 - Documento explicativo de modificación de conexión de base de datos y servidor
+			 en la aplicación Android y en el servidor. Usuarios administradores del servidor 
+			 para la aplicación de administración web.
+
+APLICACIÓN ANDROID
+
+Partes del código donde hay que modificar parámetros de conexión:
+
+En el paquete screens, clases:
+LoginActivity, RecoverActivity, SignUpActivity y FragmentSettingsMain. En todas ellas, como 
+String finales estáticos de clase. Hacen referencia a la localización del servidor y al puerto.
+
+En el paquete data, clase DBConnectorServer. También String finales estáticos de clase, que hacen
+referencia a la conexión con la base de datos directamente,  permitiendo así tener la base de datos
+en localizaciones distintas al servidor. También configuración de usuario y contraseña, así como del
+nombre de la base de datos.
+
+Usuarios: Para utilizar la aplicación, hay que registrarse inicialmente en la misma, en caso
+de disponer de usuario, realizar el login. Listo para comenzar con el uso de la aplicación.
+
+
+SERVIDOR
+
+Partes del código donde hay que modificar parámetros de conexión:
+
+
+Usuarios en Azure:  
+	hugomc92@gmail.com
+	burial92@gmail.com
+					  
+Usuarios en Nuestro servidor:	hugomc92@gmail.com
+								roman@gmail.com
+								
+Todos ellos tienen la misma contraseña: pharmacys

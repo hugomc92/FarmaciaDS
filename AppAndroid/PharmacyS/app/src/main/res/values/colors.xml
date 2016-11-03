@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5fc235</color>
+    <color name="colorPrimaryDark">#49af19</color>
+    <color name="colorAccent">#4682b4</color>
+
+    <color name="colorPrimaryLogin">#eeeeee</color>
+    <color name="colorPrimaryDarkLogin">#d3dae0</color>
+    <color name="colorAccentLogin">#5fc235</color>
+
+    <color name="menuBack">#454545</color>
+    <color name="selectedOptionMenu">#f4989e</color>
+
+    <color name="menuItem">#ffffff</color>
+
+    <color name="dialogBackground">#eeeeee</color>
+
+    <color name="colorAccentSecundary">#ff0000</color>
+</resources>

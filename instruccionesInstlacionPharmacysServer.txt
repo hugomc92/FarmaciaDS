@@ -1,0 +1,4 @@
+1- Crear un nuevo proyecto de pagina web dinamica especificamos tomcat y le damos a finish
+2- Clic derecho sobre ese proyecto creado, import -> zip file -> pharmacys.zip
+3- Añadir el proyecto a tomcat, clic derecho en Servers -> Tomcat v7 -> Add project -> pharmacys
+4- Ejecutar

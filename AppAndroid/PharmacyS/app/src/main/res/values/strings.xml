@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">PharmacyS</string>
+
+    <!-- Elementos del login, signup y recover -->
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="no_account">No account yet? Create one</string>
+    <string name="member">Already a member? Sign in</string>
+    <string name="exit">Press back to exit</string>
+    <string name="recover">Recover Password</string>
+
+    <!-- Elementos del NavView -->
+    <string name="user">User</string>
+    <string name="main">Main</string>
+    <string name="map">Map</string>
+    <string name="pharmacies">Pharmacies</string>
+    <string name="basket">My Basket</string>
+    <string name="orders">My Orders</string>
+    <string name="reservations">My Reservations</string>
+
+    <!-- Menú secundario del NavView -->
+    <string name="settingsTittle">ACCOUNT</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Log out</string>
+
+    <!-- Botón de catálogo del fragment Pharmacy -->
+    <string name="pharmacyCatalog">Product Catalog</string>
+
+    <!-- Label para el precio total de la cesta -->
+    <string name="total_price_basket">Total price: </string>
+
+    <!-- Notificación de cesta vacía -->
+    <string name="empty_basket">EMPTY BASKET</string>
+
+    <!-- Notificación de no reservas -->
+    <string name="no_reservation">NO RESERVATIONS</string>
+
+    <!-- Notificación al usuario de añadir a cesta -->
+    <string name="insert_basket">Product correctly added to basket</string>
+    <string name="insert_reservations">Product correctly reserved</string>
+
+    <!-- Notificación al usuario de pedidos vacíos-->
+    <string name="empty_orders">NO PREVIOUS ORDERS</string>
+
+    <!-- Notificación de inicio y continuación del proceso de pago -->
+    <string name="start_payment">Starting Payment Process</string>
+    <string name="continue_payment">Payment Process continue, next Pharmacy</string>
+
+    <!-- Notificación de pago satisfactorio -->
+    <string name="pay">Your payment has been correctly processed</string>
+
+    <!-- Notificación de terminación de todos los pagos -->
+    <string name="payment_finish">You have complete all payment process. Thank you</string>
+</resources>

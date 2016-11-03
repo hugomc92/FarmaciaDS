@@ -1,0 +1,28 @@
+.wellcome {
+	color: #DF8921;
+	font-size: 30px;
+}
+
+#out {
+	background: white;
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.orange { color: orange; }
+.link{ color: #1e85f8; }
+#selected { color: black; }
+#loading { margin: 0 auto; }
+.input-group-addon { background-color: rgb(154,113,245); color: white; }
+
+
+/* Syntax Highlight for JSON */
+pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; }
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }

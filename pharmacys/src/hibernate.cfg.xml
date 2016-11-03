@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	
+	<session-factory>
+		
+		<!-- Database Connection Settings -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		
+		<!-- Local
+		<property name="hibernate.connection.url">jdbc:mysql://10.211.55.6:3306/pharmacys</property>
+		<property name="hibernate.connection.username">roman</property>
+		<property name="hibernate.connection.password">o5WKxJkRXw</property> -->
+		
+		<!-- Remoto -->
+		<property name="hibernate.connection.url">jdbc:mysql://hugomaldonado.ddns.net:3306/pharmacys</property>
+		<property name="hibernate.connection.username">pharmacys</property>
+		<property name="hibernate.connection.password">pharmacys</property>
+		
+		<!-- SQL Dialect -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		
+		<!-- Write all executed SQL statements to stdout -->
+		<property name="show_sql">true</property>
+		
+		<!-- Names of the entity classes -->
+		<mapping class="model.Pharmacy"/>
+		<mapping class="model.Category"/>
+		<mapping class="model.Product"/>
+		<mapping class="model.InventoryPK"/>
+		<mapping class="model.Inventory"/>
+		<mapping class="model.Order"/>
+		<mapping class="model.OrderProduct"/>
+		<mapping class="model.OrderProductPK"/>
+		<mapping class="model.Reservation"/>
+		<mapping class="model.ReservationPK"/>
+		<mapping class="model.UserRefinedAbstraction"/>
+		
+	</session-factory>
+	
+</hibernate-configuration>
